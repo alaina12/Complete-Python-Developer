@@ -2,8 +2,8 @@
 #twillio is the libraray to be used 
 from twilio.rest import Client
 
-account_sid = 'AC096730fd885a440bd82c6fe8551bcffd'
-auth_token = '26ba430ddc2d374ef00b5d54b9ffc3a7'
+account_sid = 'add the wuthentication id'
+auth_token = 'add the authentiction token'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
